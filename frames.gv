@@ -1,0 +1,36 @@
+digraph G {
+"gripper_link" -> "r_gripper_finger_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"base_link" -> "torso_lift_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"head_camera_link" -> "head_camera_depth_frame"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"head_pan_link" -> "head_tilt_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"base_link" -> "laser_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"upperarm_roll_link" -> "elbow_flex_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"torso_lift_link" -> "head_pan_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"head_camera_rgb_frame" -> "head_camera_rgb_optical_frame"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"torso_lift_link" -> "bellows_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"shoulder_pan_link" -> "shoulder_lift_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"base_link" -> "r_wheel_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"gripper_link" -> "l_gripper_finger_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"head_tilt_link" -> "head_camera_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "br_caster_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "torso_fixed_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "fl_caster_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "bl_caster_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"torso_lift_link" -> "shoulder_pan_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"wrist_roll_link" -> "gripper_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "l_wheel_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"head_camera_link" -> "head_camera_rgb_frame"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"elbow_flex_link" -> "forearm_roll_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"wrist_flex_link" -> "wrist_roll_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"base_link" -> "fr_caster_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"torso_lift_link" -> "bellows_link2"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "base_link"[label=" Broadcaster: /gazebo\nAverage rate: 100.221\nBuffer length: 4.979\nMost recent transform: 233.265\nOldest transform: 228.286\n"];
+"base_link" -> "estop_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"head_camera_depth_frame" -> "head_camera_depth_optical_frame"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"forearm_roll_link" -> "wrist_flex_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+"shoulder_lift_link" -> "upperarm_roll_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 100.201\nBuffer length: 4.97\nMost recent transform: 233.255\nOldest transform: 228.285\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 233.314"[ shape=plaintext ] ;
+}->"odom";
+}

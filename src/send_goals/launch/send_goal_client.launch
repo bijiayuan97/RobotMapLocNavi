@@ -1,0 +1,5 @@
+<launch>
+
+<node name="move_robot_client" pkg="send_goals" type="send_goal_client.py" output="screen" />
+
+</launch>

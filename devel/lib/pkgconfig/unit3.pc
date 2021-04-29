@@ -1,0 +1,8 @@
+prefix=/home/jiayuanbi/catkin_ws/devel
+
+Name: unit3
+Description: Description of unit3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

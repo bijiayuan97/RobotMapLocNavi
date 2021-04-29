@@ -1,0 +1,27 @@
+footprint: [[-0.5, -0.33], [-0.5, 0.33], [0.5, 0.33], [0.5, -0.33]]
+footprint_padding: 0.01
+
+# # if the robot is circular, we can specify the parameter instead of the footprint
+# robot_radius: 1
+
+robot_base_frame: base_link
+publish_frequency: 3.0
+transform_tolerance: 0.5
+
+resolution: 0.05
+
+#layer parameters definitions
+static:
+    map_topic: /map
+    subscribe_to_updates: true
+
+obstacles_laser:
+    observation_sources: laser # build costmap based on its laser
+    laser: {data_type: LaserScan, clearing: true, marking: true, topic: /base_scan, inf_is_valid: true, obstacle_range: 5}
+    # data_type is limited to LaserScan, PointCloud, PointCloud2
+    # Allow Inf values in "LaserScan". Inf values are converted to the laser's maximum range
+    # the maximum height of any obstacle to be inserted into the costmap, should be slightly larger than the height of the robot.
+    # obstacle range is the default maximum distance from the robot at which an obstacle will be inserted into the costmap, can be overridden on a per-sensor basis
+
+inflation:
+    inflation_radius: 1

@@ -1,0 +1,7 @@
+global_frame: map
+rolling_window: false
+
+plugins:
+  - {name: obstacle_layer,          type: "costmap_2d::VoxelLayer"}
+  - {name: static,                  type: "costmap_2d::StaticLayer"}
+  - {name: inflation,               type: "costmap_2d::InflationLayer"}

@@ -1,0 +1,2 @@
+initialize_particles:keyboard_teleop:maps:my_amcl_launcher:my_move_base_launcher:pp_msgs:send_goals:slam_mapping:unit3
+-DCATKIN_DEVEL_PREFIX=/home/jiayuanbi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jiayuanbi/catkin_ws/install -G Unix Makefiles

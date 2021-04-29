@@ -1,0 +1,8 @@
+prefix=/home/jiayuanbi/catkin_ws/devel
+
+Name: initializa_particles
+Description: Description of initializa_particles
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
