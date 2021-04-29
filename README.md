@@ -105,4 +105,23 @@ Change global frame in `./params/my_global_costmap_params.yaml` and `./params/my
 
 Change parameters for controlling navigation in `my_move_base_param.yaml`
 
-### Step 5. 
+### Step 5. navigation
+
+Note: kill all previous running nodes in terminal
+
+Packages `send_goals` is used for sending goals to `my_move_base`. Currently, the target positions are hard coded inside `send_goal_client.py`
+
+Run following to move the base
+
+    roslaunch fetch_gazebo playground.launch
+    roslaunch my_move_base_launcher my_move_base.launch
+    roslaunch rviz rviz
+    roslaunch send_goals send_goal_client.py
+
+You can choose `Map` and `path` in Rviz for visualizing the costmap and path respectively.
+
+# Next
+
+1. distinguish client and server
+
+2. find a way to call for multiple clients
